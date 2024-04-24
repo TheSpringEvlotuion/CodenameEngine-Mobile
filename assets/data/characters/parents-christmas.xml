@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character isPlayer="false" flipX="false" x="-500" y="0" color="#C45EAE">
-	<anim name="idle"          anim="Parent Christmas Idle" fps="24" loop="false"/>
-	<anim name="singUP"        anim="Parent Up Note Dad"    fps="24" loop="false" x="-47" y="24"/>
-	<anim name="singDOWN"      anim="Parent Down Note Dad"  fps="24" loop="false" x="-31" y="-29"/>
-	<anim name="singLEFT"      anim="Parent Left Note Dad"  fps="24" loop="false" x="-30" y="16"/>
-	<anim name="singRIGHT"     anim="Parent Right Note Dad" fps="24" loop="false" x="-1" y="-23"/>
-	<anim name="singUP-alt"    anim="Parent Up Note Mom"    fps="24" loop="false" x="-47" y="24"/>
-	<anim name="singDOWN-alt"  anim="Parent Down Note Mom"  fps="24" loop="false" x="-30" y="-27"/>
-	<anim name="singLEFT-alt"  anim="Parent Left Note Mom"  fps="24" loop="false" x="-30" y="15"/>
-	<anim name="singRIGHT-alt" anim="Parent Right Note Mom" fps="24" loop="false" x="-1" y="-24"/>
+<character x="-250" icon="parents-christmas" y="200" isGF="false" scale="2" color="#C45EAE" isPlayer="false" sprite="parents-christmas">
+	<anim x="0" loop="false" y="0" fps="24" anim="Parent Christmas Idle" name="idle"/>
+	<anim x="-22" loop="false" y="13" fps="24" anim="Parent Up Note Dad" name="singUP"/>
+	<anim x="-18" loop="false" y="-12" fps="24" anim="Parent Down Note Dad" name="singDOWN"/>
+	<anim x="-15" loop="false" y="9" fps="24" anim="Parent Left Note Dad" name="singLEFT"/>
+	<anim x="0" loop="false" y="-10" fps="24" anim="Parent Right Note Dad" name="singRIGHT"/>
+	<anim x="-22" loop="false" y="13" fps="24" anim="Parent Up Note Mom" name="singUP-alt"/>
+	<anim x="-18" loop="false" y="-12" fps="24" anim="Parent Down Note Mom" name="singDOWN-alt"/>
+	<anim x="-15" loop="false" y="9" fps="24" anim="Parent Left Note Mom" name="singLEFT-alt"/>
+	<anim x="0" loop="false" y="-10" fps="24" anim="Parent Right Note Mom" name="singRIGHT-alt"/>
 </character>
